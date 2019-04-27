@@ -14,3 +14,6 @@
 li {
   margin-bottom: 5px;
 }
+ .my-pagination /deep/ .ngx-pagination .current {
+    background: #2a2a2a;
+  }

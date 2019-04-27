@@ -8,5 +8,5 @@
 			<li *ngFor="let item of collection | paginate: { itemsPerPage: 10, currentPage: p }">{{ item }}</li>
 		</ul>
 
-		<pagination-controls (pageChange)="p = $event"></pagination-controls>
+		<pagination-controls class="my-pagination" (pageChange)="p = $event"></pagination-controls>
 </div>
